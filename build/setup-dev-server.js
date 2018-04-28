@@ -1,3 +1,4 @@
+/*
 const fs = require('fs')
 const path = require('path')
 const MFS = require('memory-fs')
@@ -83,3 +84,4 @@ module.exports = function setupDevServer (app, templatePath, cb) {
 
   return readyPromise
 }
+*/
