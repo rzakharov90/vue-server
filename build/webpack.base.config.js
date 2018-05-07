@@ -37,7 +37,8 @@ module.exports = {
       {
         test: /\.js$/,
         loader: 'babel-loader',
-        exclude: /node_modules/
+        exclude: /node_modules/,
+          
       },
       {
         test: /\.(png|jpg|gif|svg)$/,
@@ -66,8 +67,25 @@ module.exports = {
          test: /\.css$/,
          use: [
           'vue-style-loader',
-             'css-loader'
+            {
+                  loader: 'css-loader',
+                  options: { minimize: true }
+                }
         ]
+      },
+      {
+        test: /\.(mp4|webm|ogg|mp3|wav|flac|aac)(\?.*)?$/,
+        loader: 'url-loader',
+        options: {
+          limit: 10000,
+        }
+      },
+      {
+        test: /\.(woff2?|eot|ttf|otf)(\?.*)?$/,
+        loader: 'url-loader',
+        options: {
+          limit: 10000,
+        }
       }
     ]
   },

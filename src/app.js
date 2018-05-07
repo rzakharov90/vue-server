@@ -30,6 +30,7 @@ import Vue from 'vue'
 import App from './App.vue'
 import {createRouter } from './router'
 
+
 export function createApp() {
     // Создаём экземпляр маршрутизатора
     const router = createRouter()
