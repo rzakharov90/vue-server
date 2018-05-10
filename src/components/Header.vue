@@ -2,9 +2,9 @@
     <header class="gap container">
             <div class="header-top sm-header-top">
                 <div class="header-top__logo sm-header-top__logo sm-gap">
-                    <a href="/" class="header-top__logo-link sm-header-top__logo-link">
+                    <router-link to="/" class="header-top__logo-link sm-header-top__logo-link">
                         Пиломатериалы <br><span class="header-top__logo-span">от производителя</span>
-                    </a>
+                    </router-link>
                 </div>
                 <div class="header-top__phone sm-header-top__phone">
                     <a href="tel:89773095660" class="header-top__phone-link sm-header-top__phone-link">
