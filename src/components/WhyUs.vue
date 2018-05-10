@@ -3,7 +3,8 @@
                 <div class="why-us__title">
                     Почему мы?
                 </div>
-                <div class="flex-cols container">
+                <div class="container">
+                <div class="flex-cols">
                     <div class="flex-cols__col col-3">
                         <div class="why-us__item">
                             <div class="why-us__item-img-wrap">
@@ -44,6 +45,7 @@
                             </div>
                         </div>
                     </div>
+                </div>
                 </div>
             </div>
 
